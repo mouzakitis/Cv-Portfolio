@@ -1073,6 +1073,11 @@ footer .social-links li:first-child { margin-left: 0; }
 
 
 /*************************SLIDER**********************/
+#slideria{
+    background: #ebeeee;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
 .slider{
     position: relative;
     width: 100%;
