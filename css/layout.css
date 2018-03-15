@@ -352,7 +352,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: ajax 2s ease;
 }
 .python {
-  	width: 55%;
+  	width: 40%;
   	-moz-animation: python 2s ease;
   	-webkit-animation: python 2s ease;
 }
@@ -370,16 +370,16 @@ ul#nav li.current a { color: #F06000; }
 }
 
 
-.indesign {
-    width: 60%;
-    -moz-animation: indesign 2s ease;
-    -webkit-animation: indesign 2s ease;
+.greensock {
+    width: 80%;
+    -moz-animation: greensock 2s ease;
+    -webkit-animation: greensock 2s ease;
 }
 
-.studiomax {
-    width: 85%;
-    -moz-animation: studiomax 2s ease;
-    -webkit-animation: studiomax 2s ease;
+.angural {
+    width: 50%;
+    -moz-animation: angural 2s ease;
+    -webkit-animation: angural 2s ease;
 }
 
 @-moz-keyframes html5 {
@@ -404,7 +404,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes python {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 40%;  }
 }
 
 @-moz-keyframes bootstrap {
@@ -417,14 +417,14 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 75%;  }
 }
 
-@-moz-keyframes indesign {
+@-moz-keyframes greensock {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 80%;  }
 }
 
-@-moz-keyframes studiomax {
+@-moz-keyframes angural {
   0%   { width: 0px;  }
-  100% { width: 85%;  }
+  100% { width: 50%;  }
 }
 
 
@@ -451,7 +451,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes python {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 40%;  }
 }
 
 @-webkit-keyframes bootstrap {
@@ -464,14 +464,14 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 75%;  }
 }
 
-@-webkit-keyframes indesign {
+@-webkit-keyframes greensock {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 80%;  }
 }
 
-@-webkit-keyframes studiomax {
+@-webkit-keyframes angural {
   0%   { width: 0px;  }
-  100% { width: 85%;  }
+  100% { width: 50%;  }
 }
 
 /* ------------------------------------------------------------------ */
