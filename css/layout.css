@@ -326,6 +326,18 @@ ul#nav li.current a { color: #F06000; }
     border-radius: 3px 0 0 3px;
 }
 
+.react {
+  width: 70%;
+  -moz-animation: react 2s ease;
+  -webkit-animation: react 2s ease;
+}
+
+.material {
+  width: 70%;
+  -moz-animation: material 2s ease;
+  -webkit-animation: material 2s ease;
+}
+
 .html5 {
   	width: 80%;
   	-moz-animation: html5 2s ease;
@@ -382,6 +394,14 @@ ul#nav li.current a { color: #F06000; }
     -webkit-animation: angural 2s ease;
 }
 
+@-moz-keyframes react {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-moz-keyframes material {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
   100% { width: 80%;  }
@@ -428,6 +448,15 @@ ul#nav li.current a { color: #F06000; }
 }
 
 
+@-webkit-keyframes react {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+
+@-webkit-keyframes material {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
 
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
